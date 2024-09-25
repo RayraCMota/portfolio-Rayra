@@ -1,0 +1,346 @@
+
+
+body{
+    background-image: url(image/blend-1919776_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.hero_title{
+    padding-top: 30px;
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 65px;
+}
+
+.hero_subtitle{
+    padding-left:95px ;
+    font-weight: 300;
+    font-size: 25px;
+    margin: 0;
+}
+
+.container{
+ z-index: 1;
+}
+
+.proj{
+    text-align: right;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.info{
+    padding-top: 160px;
+}
+
+.projeto{
+    padding-top: 40px;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista_info{
+        list-style: none;
+        padding-left: 40px;
+        padding-right: 40px;
+}   
+        
+.lista_info_item{
+            background-color: transparent;
+            border-style: none;
+            color: #fff;
+            font-family: 'Montserrat',sans-serif;
+            font-size: 30px;
+            font-weight: 500;
+            cursor: pointer;        
+    
+            &:hover{
+                font-size: 35px;
+            }
+}
+    
+
+
+@media (max-width: 767px){
+    .hero_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    
+    .hero_subtitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        padding-left: 15px;
+    }
+    
+    .container{
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    
+    .link{
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .info{
+        padding-top: 30px;
+
+    }
+    
+    .projeto{
+        padding-top: 40px;
+
+    }
+    
+    .lista{
+        display: inline-block;
+        padding-bottom: 45px;
+    
+        &_info{
+            list-style: none;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block; 
+        
+            
+            &_item{
+                background-color: transparent;
+                border-style: none;
+                color: #fff;
+                font-family: 'Montserrat',sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+                cursor: pointer;       
+        
+                &:hover{
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+
+    .hero_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    
+    .hero_subtitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+    
+    .container{
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    
+    .link{
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .info{
+        padding-top: 30px;
+
+    }
+    
+    .projeto{
+        padding-top: 40px;
+
+    }
+    
+    .lista{
+        padding-bottom: 45px;
+    
+        &_info{
+            list-style: none;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block; 
+        
+            
+            &_item{
+                background-color: transparent;
+                border-style: none;
+                color: #fff;
+                font-family: 'Montserrat',sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+                cursor: pointer;       
+        
+                &:hover{
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+
+}
+
+.contentsCV, .contentsSOBRE, .contentsPJ1,
+ .contentsPJ2, .contentsPJ3, .contentsPJ4,
+ .contentsPJ5, .contentsPJ6, .contentsPJ7,
+ .contentsPJ8{
+    display: none;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(222, 222, 222, 0.345);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+.content{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 140px;
+    background-color: #ffffffcb;
+    color: rgb(194, 1, 33);
+    border-radius: 75px;
+}
+
+.contentsCV.open{
+    display: block;
+}
+.contentsSOBRE.open{
+    display: block;
+}
+
+.contentsPJ1.open{
+    display: block;
+}
+
+.contentsPJ2.open{
+    display: block;
+}
+.contentsPJ3.open{
+    display: block;
+}
+.contentsPJ4.open{
+    display: block;
+}
+.contentsPJ5.open{
+    display: block;
+}
+.contentsPJ6.open{
+    display: block;
+}
+.contentsPJ7.open{
+    display: block;
+}
+.contentsPJ8.open{
+    display: block;
+}
+
+
+.close{
+    position: absolute;
+    top: 190px;
+    right: 200px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff00;
+    border: 0;
+    font-size: 30px;
+    color: rgb(194, 1, 33);
+    cursor: pointer;
+
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto-land{
+    
+    width: 40%;
+}
+
+@media (max-width: 767px){
+    .content{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin:50px 10px;
+        background-color: #ffffffcb;
+        color: rgb(194, 1, 33);
+        border-radius: 75px;
+    }
+    .close{
+        position: absolute;
+        top: 80px;
+        right: 50px;
+        width: 20px;
+        height: 20px;
+        background-color: #ffffff00;
+        border: 0;
+        font-size: 30px;
+        color: rgb(194, 1, 33);
+        cursor: pointer;
+    
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    .content{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin:50px 10px;
+        background-color: #ffffffcb;
+        color: rgb(194, 1, 33);
+        border-radius: 75px;
+    }
+    .close{
+        position: absolute;
+        top: 80px;
+        right: 50px;
+        width: 20px;
+        height: 20px;
+        background-color: #ffffff00;
+        border: 0;
+        font-size: 30px;
+        color: rgb(194, 1, 33);
+        cursor: pointer;
+    
+    }
+}
